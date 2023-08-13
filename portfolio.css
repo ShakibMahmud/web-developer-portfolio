@@ -74,9 +74,11 @@ nav a{
 
 .header{
     background: #FFF8F3;
+    width: 1600px;
+    margin: 0 auto;
     background-image: url("images/header_bg.png" ),url("images/developer.png");
     background-repeat: no-repeat;
-    background-position:bottom right,top left ;
+    background-position:bottom right,left center ;
 }
 
 .banner{
@@ -87,8 +89,8 @@ nav a{
     
 }
 .profile-picture{
-    width: 540px;
-    height: 583px;
+    width: 580px;
+    height: 665px;
     
 }
 
@@ -240,7 +242,8 @@ width: 500px;
 
 .footer{
     background: #FFF8F3;
-    /* width: 1600px; */
+    width: 1600px;
+    margin: 0 auto;
     height: 700px;
     flex-shrink: 0;
 }
